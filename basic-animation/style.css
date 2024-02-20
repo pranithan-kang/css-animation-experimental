@@ -1,0 +1,26 @@
+.animation-container {
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+  border-radius: 10px;
+  
+  animation-name: custom-keyframes;
+  animation-duration: 3s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  color: #fff;
+  background-color: #112f80;
+}
+
+/* using keyframes */
+@keyframes custom-keyframes {
+  from {
+    background-color: #11806f;
+    border-radius: 3px;
+  }
+
+  to {
+    background-color: #112f80;
+    border-radius: 10px;
+  }
+}

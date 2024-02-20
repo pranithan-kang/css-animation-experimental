@@ -1,0 +1,23 @@
+/* using transition */
+.transition-container {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  background-color: #ff8864;
+  color: #5e5e5e;
+  border-radius: 0;
+  transform: rotate3d(1, 0, 0, 45deg) rotate3d(0, 0, 1, -45deg);
+  /* transform: rotate3d(0, 1, 0, 0deg); */
+
+  transition-property: background-color, border-radius, transform;
+  transition-timing-function: ease;
+  transition-duration: 1s;
+  font-size: larger;
+}
+
+.transition-container:hover {
+  background-color: #941010;
+  color: #fff;
+  transform: rotate3d(0, 1, 0, 30deg);
+}
