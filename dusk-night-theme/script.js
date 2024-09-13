@@ -1,5 +1,3 @@
-// TODO: Improve this code
-
 window.onload = function() {
     let skyStarContainer = document.querySelector('.sky-star-container');
 
